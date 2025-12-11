@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp 9</title>
+    <style>
+        body{
+    background-image: url(exp09back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.company{
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    background-color: brown;
+    opacity: .8;
+    border-radius: 10px;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+    padding-top: 20px;
+}
+.content{
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 14px 28px rgba(59, 58, 58, 0.16),0 10px 10px rgba(0,0,0,0.22);
+    transition: .2s;
+    background: rgb(186, 129, 121);
+    opacity: 0.69;
+}
+.content:hover{
+    transform: translate(0px,-8px);
+}
+.but{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(143, 134, 9);
+}
+.but:hover{
+    background-color: orange;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="company">
+        <h1>FOODIE</h1>
+    </div>
+    <main>
+         <div class="gallary">
+            <div class="content">
+            <img src="savory.jpg">
+            <h3>SAVORY</h3>
+            <p><h2>Rich, comforting flavors made with fresh ingredients. Perfect for meals that feel satisfying and full of taste.</h2></p>
+            <button class="but"><h2><b>ORDER NOW</b></h2></button>
+        
+        </div>
+        
+        <div class="content">
+            <img src="snacks.jpg">
+            <h3>SNACKS</h3>
+            <p><h2>Light, quick bites for any moment of the day. Easy to grab, fun to enjoy and great for sharing.</h2></p>
+            <button class="but"><h2><b>ORDER NOW</b></button>
+        
+        </div>
+
+        <div class="content">
+            <img src="haelhty.jpg">
+            <h3>HEALTHY</h3>
+            <p><h2>Wholesome options made to fuel your body. Fresh, balanced choices that keep you feeling good and energized.</h2></p>
+            <button class="but"><h2><b>ORDER NOW</b></button>
+        
+        </div>
+
+        <div class="content">
+            <img src="sweets.jpg">
+            <h3>SWEETS</h3>
+            <p><h2>Treats that bring a little joy to every day. Soft, creamy or crunchy delights for your sweet moments.</h2></p>
+            <button class="but"><h2><b>ORDER NOW</b></button>
+        
+        </div>
+
+    </main>
+</body>
+</html>
